@@ -1,0 +1,44 @@
+#male {
+    font-size: 1.5rem;
+    margin-right: 5px;
+    color: rgb(0, 213, 255);
+  }
+  #female {
+    font-size: 1.5rem;
+    margin-right: 5px;
+    color: rgb(209, 1, 112);
+  }
+  .age-label {
+    font-weight: bold;
+    background-color: #ffffff;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    color: black;
+  }
+  #mainBody{
+    background-image: url(petsfolder/images/Backround.jpg);
+  }
+  h1{
+    color: rgb(255, 255, 255, 0.953);
+    font-size: 60px;
+    text-align: center;
+  }
+  #titleCard{
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .card{
+    background-color: rgb(72, 92, 118);
+    border: 3px solid rgb(54, 50, 67);
+  }
+  .card-title{
+    color: rgba(255, 255, 255, 0.953);
+    text-align: center;
+    font-size: 30px;
+    padding-top: 2px;
+  }
+  .card-text{
+    color: white;
+    font-size: 20px;
+  }
