@@ -1,0 +1,36 @@
+### GET REQUEST
+GET http://127.0.0.1:3000/
+
+
+### GET REQUEST
+GET http://127.0.0.1:3000/api/jsonBlob/2798295899770556810
+
+
+### POST REQUEST
+POST http://127.0.0.1:3000/api/jsonBlob
+content-type: application/json
+
+{
+	"hello": "world"
+}
+
+
+### PUT REQUEST
+PUT http://127.0.0.1:3000/api/jsonBlob/2798295899770556810
+content-type: application/json
+
+
+{
+	"Disco":{
+	"name": "Disco",
+	"type": "Dog",
+	"gender": "Male",
+	"age": "3 Years",
+	"image": "petsfolder/images/Disco.jpg",
+	"short_description": "Get ready to boogie with Disco Pug, the king of the dance floor! With his signature head bobs and wiggle-worthy tail spins, he brings the party wherever he goes. Disco Pug loves groovy walks, strutting his stuff under the disco lights (your living room lamp), and snuggling up after a long night of funky fun. He's great with kids, pets, and anyone who can keep up with his pawsome moves. If you're ready to dance through life with the coolest pug around, Disco Pug is your funky friend!"
+	}
+}
+
+
+### DELETE REQUEST
+DELETE http://127.0.0.1:3000/api/jsonBlob/2798295899770556810
